@@ -5,11 +5,26 @@
 }
 
 [class*="col__"] {
-    height: 150px;
+    height: 200px;
     text-align: center;
-    line-height: 150px;
+    position: relative;
+}
+
+.wrapper, .wrapper > div {
+    padding: 10px;
+}
+
+.wrapper > div {
+    border-color: #fff;
+    height: 100%;
 }
 /* /general */
 
 /* typo */
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* /typo */
