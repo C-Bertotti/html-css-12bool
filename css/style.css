@@ -10,14 +10,16 @@
     position: relative;
 }
 
-.wrapper, .wrapper > div {
-    padding: 10px;
+.container--wrapper, .container--wrapper > div {
+   padding: 15px;
+   height: 100%;
 }
 
-.wrapper > div {
+.container--wrapper > div {
     border-color: #fff;
-    height: 100%;
 }
+
+
 /* /general */
 
 /* typo */
