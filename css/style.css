@@ -1,0 +1,15 @@
+/* general */
+.debug .container, [class*="col__"] {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 1px solid #000;
+}
+
+[class*="col__"] {
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+/* /general */
+
+/* typo */
+/* /typo */
